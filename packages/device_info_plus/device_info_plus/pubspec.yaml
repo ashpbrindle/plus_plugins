@@ -30,7 +30,10 @@ dependencies:
   device_info_plus_linux: ^2.1.1
   device_info_plus_web: ^2.1.0
   device_info_plus_windows:
-    path: ../device_info_plus_windows
+    git:
+      url: https://github.com/ashpbrindle/plus_plugins
+      path: packages/device_info_plus/device_info_plus_windows
+      ref: cc07138b3f6d7d84f2b9c9f893dc5efed0002e4c
 
 dev_dependencies:
   flutter_test:
